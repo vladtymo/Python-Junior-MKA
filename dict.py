@@ -22,3 +22,6 @@ print(cars.values())
 if 'AA7690FR' in cars: 
     print("Car is exists!")
 else: print("Car does not exist")
+
+for plate in cars:
+    print(f"[{plate}] -  Model: {cars[plate]} ")
